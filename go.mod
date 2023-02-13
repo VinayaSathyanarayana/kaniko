@@ -26,7 +26,6 @@ require (
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-events v0.0.0-20170721190031-9461782956ad // indirect
 	github.com/docker/go-metrics v0.0.0-20180209012529-399ea8c73916 // indirect
-	github.com/docker/go-units v0.3.3 // indirect
 	github.com/docker/swarmkit v1.12.1-0.20180726190244-7567d47988d8 // indirect
 	github.com/emirpasic/gods v1.9.0 // indirect
 	github.com/flynn/go-shlex v0.0.0-20150515145356-3f9db97f8568 // indirect
@@ -36,9 +35,8 @@ require (
 	github.com/gliderlabs/ssh v0.2.2 // indirect
 	github.com/gogo/protobuf v1.1.1 // indirect
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b // indirect
-	github.com/golang/protobuf v1.1.0 // indirect
 	github.com/google/btree v0.0.0-20180124185431-e89373fe6b4a // indirect
-	github.com/google/go-cmp v0.2.0
+	github.com/google/go-cmp v0.5.5
 	github.com/google/go-containerregistry v0.0.0-20190820205713-31e00cede111
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/google/go-querystring v1.0.0 // indirect
@@ -67,9 +65,7 @@ require (
 	github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742 // indirect
 	github.com/opencontainers/go-digest v1.0.0-rc1 // indirect
 	github.com/opencontainers/image-spec v1.0.1 // indirect
-	github.com/opencontainers/runc v1.0.0-rc5 // indirect
-	github.com/opencontainers/runtime-spec v1.0.1 // indirect
-	github.com/opencontainers/selinux v1.0.0-rc1 // indirect
+	github.com/opencontainers/runc v1.1.2 // indirect
 	github.com/opentracing/opentracing-go v1.0.2 // indirect
 	github.com/otiai10/copy v0.0.0-20180813032824-7e9a647135a1
 	github.com/otiai10/mint v1.3.0 // indirect
@@ -82,18 +78,18 @@ require (
 	github.com/prometheus/common v0.0.0-20180518154759-7600349dcfe1 // indirect
 	github.com/prometheus/procfs v0.0.0-20180725123919-05ee40e3a273 // indirect
 	github.com/sergi/go-diff v1.0.0 // indirect
-	github.com/sirupsen/logrus v1.4.2
+	github.com/sirupsen/logrus v1.8.1
 	github.com/spf13/afero v1.2.1
 	github.com/spf13/cobra v0.0.3
 	github.com/spf13/pflag v1.0.1
 	github.com/src-d/gcfg v1.3.0 // indirect
 	github.com/stretchr/testify v1.4.0 // indirect
-	github.com/syndtr/gocapability v0.0.0-20180223013746-33e07d32887e // indirect
 	github.com/tonistiigi/fsutil v0.0.0-20180725061210-b19464cd1b6a // indirect
 	github.com/vbatts/tar-split v0.10.2 // indirect
 	github.com/xanzy/ssh-agent v0.2.0 // indirect
 	go.opencensus.io v0.14.0 // indirect
-	golang.org/x/net v0.0.0-20190311183353-d8887717615a
+	golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2 // indirect
+	golang.org/x/net v0.0.0-20201224014010-6772e930b67b
 	golang.org/x/oauth2 v0.0.0-20180724155351-3d292e4d0cdc
 	golang.org/x/sync v0.0.0-20180314180146-1d60e4601c6f
 	golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2 // indirect
