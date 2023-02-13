@@ -324,7 +324,7 @@ github.com/opencontainers/runc/libcontainer/system
 github.com/opencontainers/runc/libcontainer/user
 # github.com/opencontainers/runtime-spec v1.0.1
 github.com/opencontainers/runtime-spec/specs-go
-# github.com/opencontainers/selinux v1.0.0-rc1
+# github.com/opencontainers/selinux v1.3.1
 github.com/opencontainers/selinux/go-selinux
 github.com/opencontainers/selinux/go-selinux/label
 # github.com/opentracing/opentracing-go v1.0.2
@@ -337,7 +337,7 @@ github.com/otiai10/copy
 github.com/pelletier/go-buffruneio
 # github.com/peterbourgon/diskv v2.0.1+incompatible
 github.com/peterbourgon/diskv
-# github.com/pkg/errors v0.8.0
+# github.com/pkg/errors v0.8.1
 github.com/pkg/errors
 # github.com/prometheus/client_golang v0.9.0-pre1.0.20180210140205-a40133b69fbd
 github.com/prometheus/client_golang/prometheus
@@ -435,7 +435,7 @@ golang.org/x/oauth2/jwt
 golang.org/x/sync/errgroup
 golang.org/x/sync/singleflight
 golang.org/x/sync/syncmap
-# golang.org/x/sys v0.0.0-20190422165155-953cdadca894
+# golang.org/x/sys v0.0.0-20191115151921-52ab43148777
 golang.org/x/sys/cpu
 golang.org/x/sys/unix
 golang.org/x/sys/windows
