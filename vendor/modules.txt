@@ -90,6 +90,8 @@ github.com/containerd/continuity/sysx
 github.com/containerd/fifo
 # github.com/coreos/etcd v3.3.9+incompatible
 github.com/coreos/etcd/raft/raftpb
+# github.com/coreos/go-systemd/v22 v22.3.2
+github.com/coreos/go-systemd/v22/dbus
 # github.com/dgrijalva/jwt-go v3.2.0+incompatible
 github.com/dgrijalva/jwt-go
 # github.com/docker/distribution v2.6.0-rc.1.0.20180720172123-0dae0957e5fe+incompatible
@@ -187,7 +189,7 @@ github.com/docker/go-connections/tlsconfig
 github.com/docker/go-events
 # github.com/docker/go-metrics v0.0.0-20180209012529-399ea8c73916
 github.com/docker/go-metrics
-# github.com/docker/go-units v0.3.3
+# github.com/docker/go-units v0.4.0
 github.com/docker/go-units
 # github.com/docker/swarmkit v1.12.1-0.20180726190244-7567d47988d8
 github.com/docker/swarmkit/agent/exec
@@ -211,6 +213,8 @@ github.com/fsnotify/fsnotify
 github.com/genuinetools/amicontained/container
 # github.com/ghodss/yaml v1.0.0
 github.com/ghodss/yaml
+# github.com/godbus/dbus/v5 v5.0.6
+github.com/godbus/dbus/v5
 # github.com/gogo/protobuf v1.1.1
 github.com/gogo/protobuf/gogoproto
 github.com/gogo/protobuf/proto
@@ -219,7 +223,7 @@ github.com/gogo/protobuf/sortkeys
 github.com/gogo/protobuf/types
 # github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
 github.com/golang/glog
-# github.com/golang/protobuf v1.1.0
+# github.com/golang/protobuf v1.5.0
 github.com/golang/protobuf/proto
 github.com/golang/protobuf/protoc-gen-go/descriptor
 github.com/golang/protobuf/ptypes
@@ -228,9 +232,10 @@ github.com/golang/protobuf/ptypes/duration
 github.com/golang/protobuf/ptypes/timestamp
 # github.com/google/btree v0.0.0-20180124185431-e89373fe6b4a
 github.com/google/btree
-# github.com/google/go-cmp v0.2.0
+# github.com/google/go-cmp v0.5.5
 github.com/google/go-cmp/cmp
 github.com/google/go-cmp/cmp/internal/diff
+github.com/google/go-cmp/cmp/internal/flags
 github.com/google/go-cmp/cmp/internal/function
 github.com/google/go-cmp/cmp/internal/value
 # github.com/google/go-containerregistry v0.0.0-20190820205713-31e00cede111
@@ -288,8 +293,6 @@ github.com/json-iterator/go
 github.com/karrick/godirwalk
 # github.com/kevinburke/ssh_config v0.0.0-20180830205328-81db2a75821e
 github.com/kevinburke/ssh_config
-# github.com/konsorten/go-windows-terminal-sequences v1.0.1
-github.com/konsorten/go-windows-terminal-sequences
 # github.com/mattn/go-ieproxy v0.0.0-20190805055040-f9202b1cfdeb
 github.com/mattn/go-ieproxy
 # github.com/mattn/go-shellwords v1.0.3
@@ -317,16 +320,18 @@ github.com/opencontainers/go-digest
 # github.com/opencontainers/image-spec v1.0.1
 github.com/opencontainers/image-spec/specs-go
 github.com/opencontainers/image-spec/specs-go/v1
-# github.com/opencontainers/runc v1.0.0-rc5
+# github.com/opencontainers/runc v1.1.2
 github.com/opencontainers/runc/libcontainer/configs
 github.com/opencontainers/runc/libcontainer/devices
 github.com/opencontainers/runc/libcontainer/system
 github.com/opencontainers/runc/libcontainer/user
-# github.com/opencontainers/runtime-spec v1.0.1
+# github.com/opencontainers/runtime-spec v1.0.3-0.20210326190908-1c3f411f0417
 github.com/opencontainers/runtime-spec/specs-go
-# github.com/opencontainers/selinux v1.0.0-rc1
+# github.com/opencontainers/selinux v1.10.0
 github.com/opencontainers/selinux/go-selinux
 github.com/opencontainers/selinux/go-selinux/label
+github.com/opencontainers/selinux/pkg/pwalk
+github.com/opencontainers/selinux/pkg/pwalkdir
 # github.com/opentracing/opentracing-go v1.0.2
 github.com/opentracing/opentracing-go
 github.com/opentracing/opentracing-go/ext
@@ -355,7 +360,7 @@ github.com/prometheus/procfs/nfs
 github.com/prometheus/procfs/xfs
 # github.com/sergi/go-diff v1.0.0
 github.com/sergi/go-diff/diffmatchpatch
-# github.com/sirupsen/logrus v1.4.2
+# github.com/sirupsen/logrus v1.8.1
 github.com/sirupsen/logrus
 # github.com/spf13/afero v1.2.1
 github.com/spf13/afero
@@ -369,7 +374,7 @@ github.com/src-d/gcfg
 github.com/src-d/gcfg/scanner
 github.com/src-d/gcfg/token
 github.com/src-d/gcfg/types
-# github.com/syndtr/gocapability v0.0.0-20180223013746-33e07d32887e
+# github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635
 github.com/syndtr/gocapability/capability
 # github.com/tonistiigi/fsutil v0.0.0-20180725061210-b19464cd1b6a
 github.com/tonistiigi/fsutil
@@ -413,7 +418,7 @@ golang.org/x/crypto/ssh
 golang.org/x/crypto/ssh/agent
 golang.org/x/crypto/ssh/knownhosts
 golang.org/x/crypto/ssh/terminal
-# golang.org/x/net v0.0.0-20190311183353-d8887717615a
+# golang.org/x/net v0.0.0-20201224014010-6772e930b67b
 golang.org/x/net/context
 golang.org/x/net/context/ctxhttp
 golang.org/x/net/http/httpguts
@@ -435,12 +440,13 @@ golang.org/x/oauth2/jwt
 golang.org/x/sync/errgroup
 golang.org/x/sync/singleflight
 golang.org/x/sync/syncmap
-# golang.org/x/sys v0.0.0-20190422165155-953cdadca894
+# golang.org/x/sys v0.0.0-20211116061358-0a5406a5449c
 golang.org/x/sys/cpu
+golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 golang.org/x/sys/windows/registry
-# golang.org/x/text v0.3.0
+# golang.org/x/text v0.3.3
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
@@ -499,6 +505,37 @@ google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
 google.golang.org/grpc/transport
+# google.golang.org/protobuf v1.27.1
+google.golang.org/protobuf/encoding/prototext
+google.golang.org/protobuf/encoding/protowire
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/detrand
+google.golang.org/protobuf/internal/encoding/defval
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/encoding/tag
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/errors
+google.golang.org/protobuf/internal/filedesc
+google.golang.org/protobuf/internal/filetype
+google.golang.org/protobuf/internal/flags
+google.golang.org/protobuf/internal/genid
+google.golang.org/protobuf/internal/impl
+google.golang.org/protobuf/internal/order
+google.golang.org/protobuf/internal/pragma
+google.golang.org/protobuf/internal/set
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/internal/version
+google.golang.org/protobuf/proto
+google.golang.org/protobuf/reflect/protodesc
+google.golang.org/protobuf/reflect/protoreflect
+google.golang.org/protobuf/reflect/protoregistry
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/runtime/protoimpl
+google.golang.org/protobuf/types/descriptorpb
+google.golang.org/protobuf/types/known/anypb
+google.golang.org/protobuf/types/known/durationpb
+google.golang.org/protobuf/types/known/timestamppb
 # gopkg.in/inf.v0 v0.9.1
 gopkg.in/inf.v0
 # gopkg.in/src-d/go-billy.v4 v4.2.0
