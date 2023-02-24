@@ -93,9 +93,9 @@ require (
 	github.com/vbatts/tar-split v0.10.2 // indirect
 	github.com/xanzy/ssh-agent v0.2.0 // indirect
 	go.opencensus.io v0.14.0 // indirect
-	golang.org/x/net v0.0.0-20190311183353-d8887717615a
+	golang.org/x/net v0.7.0
 	golang.org/x/oauth2 v0.0.0-20180724155351-3d292e4d0cdc
-	golang.org/x/sync v0.0.0-20180314180146-1d60e4601c6f
+	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4
 	golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2 // indirect
 	google.golang.org/api v0.0.0-20180730000901-31ca0e01cd79 // indirect
 	google.golang.org/appengine v1.1.0 // indirect
