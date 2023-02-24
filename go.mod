@@ -30,19 +30,16 @@ require (
 	github.com/docker/swarmkit v1.12.1-0.20180726190244-7567d47988d8 // indirect
 	github.com/emirpasic/gods v1.9.0 // indirect
 	github.com/flynn/go-shlex v0.0.0-20150515145356-3f9db97f8568 // indirect
-	github.com/fsnotify/fsnotify v1.4.7 // indirect
 	github.com/genuinetools/amicontained v0.4.3
 	github.com/ghodss/yaml v1.0.0 // indirect
 	github.com/gliderlabs/ssh v0.2.2 // indirect
 	github.com/gogo/protobuf v1.1.1 // indirect
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b // indirect
-	github.com/golang/protobuf v1.1.0 // indirect
 	github.com/google/btree v0.0.0-20180124185431-e89373fe6b4a // indirect
-	github.com/google/go-cmp v0.2.0
+	github.com/google/go-cmp v0.3.0
 	github.com/google/go-containerregistry v0.0.0-20190820205713-31e00cede111
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/google/go-querystring v1.0.0 // indirect
-	github.com/google/gofuzz v0.0.0-20170612174753-24818f796faf // indirect
 	github.com/google/martian v2.1.0+incompatible // indirect
 	github.com/googleapis/gax-go v2.0.0+incompatible // indirect
 	github.com/googleapis/gnostic v0.2.0 // indirect
@@ -52,10 +49,8 @@ require (
 	github.com/hashicorp/go-immutable-radix v0.0.0-20180129170900-7f3cd4390caa // indirect
 	github.com/hashicorp/go-memdb v0.0.0-20180223233045-1289e7fffe71 // indirect
 	github.com/hashicorp/go-uuid v1.0.1 // indirect
-	github.com/hashicorp/golang-lru v0.0.0-20180201235237-0fb14efe8c47 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
-	github.com/json-iterator/go v0.0.0-20180701071628-ab8a2e0c74be // indirect
 	github.com/karrick/godirwalk v1.7.7
 	github.com/kevinburke/ssh_config v0.0.0-20180830205328-81db2a75821e // indirect
 	github.com/mattn/go-ieproxy v0.0.0-20190805055040-f9202b1cfdeb // indirect
@@ -64,7 +59,6 @@ require (
 	github.com/minio/highwayhash v1.0.0
 	github.com/mitchellh/go-homedir v1.0.0 // indirect
 	github.com/moby/buildkit v0.0.0-20180731175856-e57eed420c75
-	github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742 // indirect
 	github.com/opencontainers/go-digest v1.0.0-rc1 // indirect
 	github.com/opencontainers/image-spec v1.0.1 // indirect
 	github.com/opencontainers/runc v1.0.0-rc5 // indirect
@@ -93,9 +87,10 @@ require (
 	github.com/vbatts/tar-split v0.10.2 // indirect
 	github.com/xanzy/ssh-agent v0.2.0 // indirect
 	go.opencensus.io v0.14.0 // indirect
-	golang.org/x/net v0.0.0-20190311183353-d8887717615a
+	golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2 // indirect
+	golang.org/x/net v0.0.0-20190812203447-cdfb69ac37fc
 	golang.org/x/oauth2 v0.0.0-20180724155351-3d292e4d0cdc
-	golang.org/x/sync v0.0.0-20180314180146-1d60e4601c6f
+	golang.org/x/sync v0.0.0-20181221193216-37e7f081c4d4
 	golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2 // indirect
 	google.golang.org/api v0.0.0-20180730000901-31ca0e01cd79 // indirect
 	google.golang.org/appengine v1.1.0 // indirect
@@ -108,7 +103,7 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gotest.tools v2.2.0+incompatible // indirect
 	k8s.io/api v0.0.0-20180711052118-183f3326a935 // indirect
-	k8s.io/apimachinery v0.0.0-20180621070125-103fd098999d // indirect
+	k8s.io/apimachinery v0.15.7 // indirect
 	k8s.io/client-go v0.0.0-20180910083459-2cefa64ff137 // indirect
 	k8s.io/kube-openapi v0.0.0-20191107075043-30be4d16710a // indirect
 	k8s.io/kubernetes v1.11.1 // indirect
