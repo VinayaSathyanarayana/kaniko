@@ -21,7 +21,7 @@ require (
 	github.com/containerd/fifo v0.0.0-20180307165137-3d5202aec260 // indirect
 	github.com/coreos/etcd v3.3.9+incompatible // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
-	github.com/docker/distribution v2.6.0-rc.1.0.20180720172123-0dae0957e5fe+incompatible // indirect
+	github.com/docker/distribution v2.8.0+incompatible // indirect
 	github.com/docker/docker v1.4.2-0.20180531152204-71cd53e4a197
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-events v0.0.0-20170721190031-9461782956ad // indirect
