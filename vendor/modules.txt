@@ -92,7 +92,7 @@ github.com/containerd/fifo
 github.com/coreos/etcd/raft/raftpb
 # github.com/dgrijalva/jwt-go v3.2.0+incompatible
 github.com/dgrijalva/jwt-go
-# github.com/docker/distribution v2.6.0-rc.1.0.20180720172123-0dae0957e5fe+incompatible
+# github.com/docker/distribution v2.8.0+incompatible
 github.com/docker/distribution
 github.com/docker/distribution/digestset
 github.com/docker/distribution/reference
